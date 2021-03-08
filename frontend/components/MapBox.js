@@ -45,9 +45,9 @@ export function MapBox({
 
   const [features, setFeatures] = useState([]);
   const [initialized, setInitialized] = useState(false);
-  const [lng, setLng] = useState(-100);
-  const [lat, setLat] = useState(38);
-  const [zoom, setZoom] = useState(1);
+  const [lng, setLng] = useState(16);
+  const [lat, setLat] = useState(50);
+  const [zoom, setZoom] = useState(20);
 
   const {settings} = useSettings();
   const geometryField = settings.geometryField;
