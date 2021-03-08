@@ -164,7 +164,7 @@ export function MapBox({
 
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: 'mapbox://styles/v1/benci/ckkx3pobf14xb17ocb088pb3q.html',
+      style: 'mapbox://styles/v1/benci/ckkx3pobf14xb17ocb088pb3q',
       center: [lng, lat],
       zoom: zoom
     });
